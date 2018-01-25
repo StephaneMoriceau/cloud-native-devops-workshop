@@ -155,6 +155,8 @@ Before you move forward please inspect the *wercker.yml*. The source is availabl
 	        registry: https://registry.hub.docker.com/v2
 	        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
+NOTE: you need to edit the registry address in the wercker.yml file with https://registry.hub.docker.com/v2 
+
 The *wercker.yml* defines the configuration of your automation pipelines with a collection of Steps that you wish to execute.
 In your *wercker.yml* you can specify any pipeline you like. There is one special pipeline called dev which will only be executed when running it with the CLI using the wercker dev command. Examples of pipeline names: *build-base-container*, *build*, *push-to-registry*.
 
