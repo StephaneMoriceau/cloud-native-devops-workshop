@@ -102,7 +102,7 @@ Before you move forward please inspect the *wercker.yml*. The source is availabl
 	        opc_password: $OPC_PASSWORD
 	        rest_url: $REST_URL
 	        domain: $IDENTITY_DOMAIN
-	        application_name: springboot-accs-demo
+	        application_name: springbootAccsDemo
 	        application_type: java
 	        file: springbootdemo-0.0.1.zip
 
@@ -200,7 +200,7 @@ When the *build* and *deploy-oracle-accs* pipelines are done open a new browser 
 
 ![](images/wercker.step.accs/25.dashboard.png)
 
-On the Application Container Cloud console you have to see a new application called *springboot-accs-demo*. Once the deployment is complete (no sand glass and the URL is enabled) click on the URL link to open the Spring Boot sample application.
+On the Application Container Cloud console you have to see a new application called *springbootAccsDemo* (Please note that the new application name in the following screen copy is different as it includes "-" characters. In this workshop script the "-" characters have been removed from the new application name as this is not supported anymore). Once the deployment is complete (no sand glass and the URL is enabled) click on the URL link to open the Spring Boot sample application.
 
 ![](images/wercker.step.accs/26.accs.console.png)
 
