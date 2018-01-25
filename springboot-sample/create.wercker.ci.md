@@ -152,7 +152,7 @@ Before you move forward please inspect the *wercker.yml*. The source is availabl
 	        password: $DOCKER_PASSWORD
 	        tag: latest
 	        repository: $DOCKER_REPOSITORY
-	        registry: https://index.docker.io/v1/
+	        registry: https://registry.hub.docker.com/v2
 	        cmd: java -jar  /pipeline/source/target/springbootdemo-0.0.1.war
 
 The *wercker.yml* defines the configuration of your automation pipelines with a collection of Steps that you wish to execute.
